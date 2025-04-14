@@ -25,7 +25,10 @@ void generarDatos(struct compu pcs[], int cantidad) {
 }
 
 int main(){
-
+    struct compu pcs[CANT_PC];
+    
+    generarDatos(pcs, CANT_PC);
+    
 
     return 0;
 }
